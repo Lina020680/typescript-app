@@ -1,6 +1,6 @@
 export interface User {
-    avatar: string,
-    unseName: string,
-    profession: string,
-    hobbies: string[]
-  }
+  avatar: string,
+  userName: string,
+  profession: string,
+  hobbies: string[]
+}
