@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   Footer,
   Header,
@@ -14,9 +15,11 @@ function Layout({ children }: LayoutProps) {
   return (
     <LayoutComponent>
       <Header>
-        <HeaderLogoContainer>
+        <Link to='/'>
+        <HeaderLogoContainer >
           <HeaderLogo />
         </HeaderLogoContainer>
+        </Link>
         <NavContainer>
           <StyledNavLink
             to="/"
