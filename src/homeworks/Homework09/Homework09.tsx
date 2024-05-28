@@ -22,8 +22,8 @@ setFirstNote(event.target.value)
     }
 return (
     <Homework09Wrapper>
-        <Input placeholder="First note" onInputChange={onFirstNoteInputChange} name='firstNote' label="First note"/>
-        <Input placeholder="Second note" onInputChange={onSecondNoteInputChange} name='secondNote' label="Second note"/>
+        <Input value={firstNote} placeholder="First note" onInputChange={onFirstNoteInputChange} name='firstNote' label="First note"/>
+        <Input value={secondNote} placeholder="Second note" onInputChange={onSecondNoteInputChange} name='secondNote' label="Second note"/>
         <Button name="Show notes" onButtonClick={onShowResult}/>
         <ResultsBlock isShowResult={isShowResult}>
             <ResultWrapper>{firstNote}</ResultWrapper>
