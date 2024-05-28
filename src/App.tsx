@@ -5,6 +5,7 @@ import Layout from "components/Layout/Layout";
 import About from "pages/About/About";
 import Home from "pages/Home/Home";
 import Users from "pages/Users/Users";
+import Clients from "pages/Clients/Clients";
 
 // Lessons
 //import Lesson06 from 'lessons/Lessons06/Lessons06';
@@ -23,6 +24,7 @@ import Users from "pages/Users/Users";
 // Consultations
 import Consultation05 from "Consultation/Consultation05/Consultation";
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -32,6 +34,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/users" element={<Users/>}/>
+          <Route path="/clients" element={<Clients/>}/>
           <Route path="*" element='Page Not Found'/>
         </Routes>
       </Layout>
