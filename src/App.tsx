@@ -25,7 +25,8 @@ import GlobalStyles from "styles/GlobalStyles";
 //import Homework08 from "homeworks/Homework08/Homework08";
 //import Homework09 from "homeworks/Homework09/Homework09";
 //import Homework11 from "homeworks/Homework11/Homework11";
-import Homework14 from "homeworks/Homework14/Homework14";
+//import Homework14 from "homeworks/Homework14/Homework14";
+import Weather from "pages/Weather/Weather";
 
 // Consultations
 //import Consultation05 from "Consultation/Consultation05/Consultation";
@@ -60,7 +61,8 @@ function App() {
       {/*<Lesson12 />*/}
       {/*/*<Consultation05 />*/}
       {/*<Lesson14 />*/}
-      <Homework14 />
+      {/*<Homework14 />*/}
+      <Weather />
     </BrowserRouter>
   );
 }
